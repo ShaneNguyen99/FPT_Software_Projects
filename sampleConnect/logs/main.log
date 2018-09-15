@@ -1,0 +1,694 @@
+2018-07-09 14:40:51,926@connect4_zero.manager INFO # config type: normal
+2018-07-09 14:49:32,170@connect4_zero.manager INFO # config type: normal
+2018-07-09 14:59:42,004@connect4_zero.manager INFO # config type: normal
+2018-07-09 15:49:20,611@connect4_zero.manager INFO # config type: normal
+2018-07-09 15:52:32,727@connect4_zero.manager INFO # config type: normal
+2018-07-09 15:52:37,536@connect4_zero.agent.model_connect4 DEBUG # loading model from /Users/HoangNguyen/Desktop/F_SOFT/sampleChess/data/model/model_best_config.json
+2018-07-09 15:52:37,675@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1188: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-07-09 15:52:38,203@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1205: calling reduce_prod (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-07-09 15:55:19,276@connect4_zero.manager INFO # config type: normal
+2018-07-09 15:55:23,858@connect4_zero.agent.model_connect4 DEBUG # loading model from /Users/HoangNguyen/Desktop/F_SOFT/sampleChess/data/model/model_best_config.json
+2018-07-09 15:55:23,985@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1188: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-07-09 15:55:24,531@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1205: calling reduce_prod (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-07-09 16:31:32,127@connect4_zero.manager INFO # config type: normal
+2018-07-09 16:32:20,156@connect4_zero.manager INFO # config type: normal
+2018-07-09 16:33:49,828@connect4_zero.manager INFO # config type: normal
+2018-07-09 16:33:55,721@connect4_zero.agent.model_connect4 DEBUG # loading model from /Users/HoangNguyen/Desktop/F_SOFT/sampleChess/data/model/model_best_config.json
+2018-07-09 16:33:55,862@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1188: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-07-09 16:33:56,890@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1205: calling reduce_prod (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-07-09 16:33:57,312@connect4_zero.agent.model_connect4 DEBUG # loaded model digest = 1e11d471bbb65d5e6189317dadb0a8c8750c7803b7709391d3f35496c40a9f27
+2018-07-09 16:33:57,313@asyncio DEBUG # Using selector: KqueueSelector
+2018-07-09 16:34:16,370@connect4_zero.worker.self_play DEBUG # game 1 time=19.05767798423767 sec, turn=32:OXXXOOXXOOOOXXXXO X OOOX O X XX O X XO O O - Winner:Winner.black
+2018-07-09 16:34:39,754@connect4_zero.worker.self_play DEBUG # game 2 time=23.383254051208496 sec, turn=29:OXXXOXXOXXOXOOXO XOO OO OX  XX XO   X  O   - Winner:Winner.white
+2018-07-09 16:35:09,953@connect4_zero.worker.self_play DEBUG # game 3 time=30.198896884918213 sec, turn=42:OOXXOOXXXOOOXOOOOXXOOXXXOXXXXOOOXOXOXXXOXO - Winner:Winner.draw
+2018-07-09 16:35:42,990@connect4_zero.worker.self_play DEBUG # game 4 time=33.02387499809265 sec, turn=42:OXXXOOXXOOXXXOXXXOOOXOOOXXXOOXXOOXXOXOXOOO - Winner:Winner.draw
+2018-07-09 16:36:03,094@connect4_zero.worker.self_play DEBUG # game 5 time=20.10382890701294 sec, turn=27:XXOXXOOOOXXO XXX XX OXO OO  O  OX     XO   - Winner:Winner.white
+2018-07-09 16:36:17,733@connect4_zero.worker.self_play DEBUG # game 6 time=14.638785123825073 sec, turn=21:XOOXO  XOXXX   XOOX   OXOO     XX      O   - Winner:Winner.white
+2018-07-09 16:36:34,553@connect4_zero.worker.self_play DEBUG # game 7 time=16.819052696228027 sec, turn=23:XXOXOOX OXXXO   OXOO   OOXX   XX      O    - Winner:Winner.white
+2018-07-09 16:36:38,699@connect4_zero.worker.self_play DEBUG # game 8 time=4.146766901016235 sec, turn=10:XXXOOOO O  X   X                           - Winner:Winner.black
+2018-07-09 16:36:59,217@connect4_zero.worker.self_play DEBUG # game 9 time=20.51700186729431 sec, turn=26:OXOXXOXXXXO XO  XO OO  XX OO  OO XO   X    - Winner:Winner.black
+2018-07-09 16:37:23,467@connect4_zero.worker.self_play DEBUG # game 10 time=24.249775886535645 sec, turn=38:OXOXOOXXXOOXOXOOXXOXXXXOOXOOOOXO  XOXXX  O - Winner:Winner.black
+2018-07-09 16:37:42,773@connect4_zero.worker.self_play DEBUG # game 11 time=19.306105852127075 sec, turn=33:OOXOXXXXXXX OO OOO XX XOX OO XOX XX OXO OO - Winner:Winner.white
+2018-07-09 16:38:04,591@connect4_zero.worker.self_play DEBUG # game 12 time=21.817915201187134 sec, turn=29:O OXXOXX OXOXXX OOXOOO XX XOX XO X   OO    - Winner:Winner.white
+2018-07-09 16:38:39,286@connect4_zero.worker.self_play DEBUG # game 13 time=34.694432973861694 sec, turn=42:OOXXOOXXXOOOXOOOOXXOOXXXOXXXXOOOXOXOXXXOXO - Winner:Winner.draw
+2018-07-09 16:38:49,511@connect4_zero.worker.self_play DEBUG # game 14 time=10.224890232086182 sec, turn=15:OOXXXO OXOX    XXO    X      O             - Winner:Winner.white
+2018-07-09 16:39:19,813@connect4_zero.worker.self_play DEBUG # game 15 time=30.301734924316406 sec, turn=34:OXXXOOXOOOXXOXOXOOXXXOOXXOOO  XOXX   XO    - Winner:Winner.black
+2018-07-09 16:39:44,287@connect4_zero.worker.self_play DEBUG # game 16 time=24.473569869995117 sec, turn=38:XOXXOXOXOOOOXXXX XXXOOO XOOXXO OXXXOO XOOO - Winner:Winner.black
+2018-07-09 16:40:02,645@connect4_zero.worker.self_play DEBUG # game 17 time=18.357985973358154 sec, turn=25: OXXOOX X OXOX O XXXX X OOO    XOO    XO   - Winner:Winner.white
+2018-07-09 16:40:36,207@connect4_zero.worker.self_play DEBUG # game 18 time=33.56004023551941 sec, turn=42:XOOXXOXOXXOOXOXOOXOOXOXXOXXOXOXXXOXOOXOOXO - Winner:Winner.draw
+2018-07-09 16:41:07,354@connect4_zero.worker.self_play DEBUG # game 19 time=31.1458740234375 sec, turn=42:XXOXXXOOOXOOXXXXOXXXOOOXOOOXXXOOXXXOOOOXOO - Winner:Winner.black
+2018-07-09 16:41:34,828@connect4_zero.worker.self_play DEBUG # game 20 time=27.47414994239807 sec, turn=39:XOXXOOOOXXOOOXXOOXXXXOXXO XOOOOX OXXXXO OX - Winner:Winner.white
+2018-07-09 16:41:56,252@connect4_zero.worker.self_play DEBUG # game 21 time=21.423372745513916 sec, turn=29:XOOXOXXXXXXOOOO XOOXXX OXXO    OOX    O    - Winner:Winner.white
+2018-07-09 16:42:14,722@connect4_zero.worker.self_play DEBUG # game 22 time=18.46977710723877 sec, turn=27:XOOXOOXXXXXOX  O XXX  O OXO    OXO    XOO  - Winner:Winner.white
+2018-07-09 16:42:24,528@connect4_zero.worker.self_play DEBUG # game 23 time=9.806570291519165 sec, turn=16:XOXOX O  OXX    XOO     XO     OX          - Winner:Winner.black
+2018-07-09 16:42:35,069@connect4_zero.worker.self_play DEBUG # game 24 time=10.539999008178711 sec, turn=15:O XXOX   OXX    OXO    XOX     O           - Winner:Winner.white
+2018-07-09 16:43:01,195@connect4_zero.worker.self_play DEBUG # game 25 time=26.126275062561035 sec, turn=38:OXXXOXOXOOXXOXOXXOO XXOOOX OXXXOO XOOOXX O - Winner:Winner.black
+2018-07-09 16:43:23,510@connect4_zero.worker.self_play DEBUG # game 26 time=22.31490397453308 sec, turn=30:XOXXOOXOX OOXX O OOOO X XXX  X OOO  O XXX  - Winner:Winner.black
+2018-07-09 16:43:40,117@connect4_zero.worker.self_play DEBUG # game 27 time=16.606981992721558 sec, turn=27:OXOXO XOOXXO XXXOOX XXOXXO O  OX      O    - Winner:Winner.white
+2018-07-09 16:43:49,749@connect4_zero.worker.self_play DEBUG # game 28 time=9.631473064422607 sec, turn=14: XXOXO  XXX O    O O    X O    O           - Winner:Winner.black
+2018-07-09 16:44:16,150@connect4_zero.worker.self_play DEBUG # game 29 time=26.40071201324463 sec, turn=37:OOXXXOXOOXOXXXXXXXOOO OOOXXX OOXXO  XXOOO  - Winner:Winner.white
+2018-07-09 16:44:36,244@connect4_zero.worker.self_play DEBUG # game 30 time=20.093714237213135 sec, turn=35:OXOXOOOXXOOXOX OXXXOO X XOXX O OXXX X XOOO - Winner:Winner.white
+2018-07-09 16:49:57,526@connect4_zero.manager INFO # config type: mini
+2018-07-09 16:51:23,262@connect4_zero.manager INFO # config type: mini
+2018-07-09 16:51:53,846@connect4_zero.manager INFO # config type: mini
+2018-07-09 16:52:07,817@connect4_zero.manager INFO # config type: normal
+2018-07-09 16:52:13,332@connect4_zero.agent.model_connect4 DEBUG # loading model from /Users/HoangNguyen/Desktop/F_SOFT/sampleChess/data/model/model_best_config.json
+2018-07-09 16:52:13,462@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1188: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-07-09 16:52:14,483@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1205: calling reduce_prod (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-07-09 16:52:14,877@connect4_zero.agent.model_connect4 DEBUG # loaded model digest = 1e11d471bbb65d5e6189317dadb0a8c8750c7803b7709391d3f35496c40a9f27
+2018-07-09 16:52:14,878@asyncio DEBUG # Using selector: KqueueSelector
+2018-07-09 16:52:38,397@connect4_zero.worker.self_play DEBUG # game 1 time=23.51969599723816 sec, turn=37:XOXXOOXXOOOXOXOOXXXXOXXOOO XOOXXO  XXOXO   - Winner:Winner.white
+2018-07-09 16:52:46,014@connect4_zero.worker.self_play DEBUG # game 2 time=7.616763114929199 sec, turn=15: OXXOX  OOOX   XXXO    XO                  - Winner:Winner.white
+2018-07-09 16:53:24,034@connect4_zero.manager INFO # config type: normal
+2018-07-09 16:53:30,115@connect4_zero.agent.model_connect4 DEBUG # loading model from /Users/HoangNguyen/Desktop/F_SOFT/sampleChess/data/model/model_best_config.json
+2018-07-09 16:53:30,247@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1188: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-07-09 16:53:31,306@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1205: calling reduce_prod (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-07-09 16:53:31,698@connect4_zero.agent.model_connect4 DEBUG # loaded model digest = 1e11d471bbb65d5e6189317dadb0a8c8750c7803b7709391d3f35496c40a9f27
+2018-07-09 16:53:31,698@asyncio DEBUG # Using selector: KqueueSelector
+2018-07-09 17:01:20,495@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(4, 0), value move=(0, 0)
+2018-07-09 17:01:20,898@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.06819423842851234
+2018-07-09 17:02:15,221@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(4, 0), value move=(2, 0)
+2018-07-09 17:02:15,688@connect4_zero.play_game.game_model DEBUG # evaluation by ai=-0.017943780499455685
+2018-07-09 17:02:24,251@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(4, 0), value move=(3, 0)
+2018-07-09 17:02:24,689@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.2699521782583204
+2018-07-09 17:02:27,187@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.5086113384057735
+2018-07-09 17:02:32,273@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.9389868587255478
+2018-07-09 17:02:34,224@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.9194644434798148
+2018-07-09 17:02:38,384@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(3, 0), value move=(0, 0)
+2018-07-09 17:02:38,903@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.8917726702000721
+2018-07-09 17:02:56,574@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.9334093805621652
+2018-07-09 17:03:00,999@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.8865911586831013
+2018-07-09 17:04:11,377@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(2, 0), value move=(4, 0)
+2018-07-09 17:04:11,690@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.8751220735318866
+2018-07-09 17:04:25,317@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.7443785061687231
+2018-07-09 17:04:50,443@connect4_zero.play_game.game_model DEBUG # evaluation by ai=1.0
+2018-07-09 17:04:55,874@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(4, 0), value move=(0, 0)
+2018-07-09 17:04:56,293@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.06819423842851234
+2018-07-09 17:05:00,542@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(4, 0), value move=(2, 0)
+2018-07-09 17:05:00,993@connect4_zero.play_game.game_model DEBUG # evaluation by ai=-0.017943780499455685
+2018-07-09 17:05:18,535@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(4, 0), value move=(3, 0)
+2018-07-09 17:05:18,969@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.2699521782583204
+2018-07-09 17:05:22,020@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.8971815265841403
+2018-07-09 17:05:27,212@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.7382915839552879
+2018-07-09 17:05:35,172@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.8454105152803308
+2018-07-09 17:05:37,692@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.9086292892312392
+2018-07-09 17:05:51,450@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(4, 0), value move=(0, 0)
+2018-07-09 17:05:51,965@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.8892023375968343
+2018-07-09 17:06:10,993@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.5922585420053581
+2018-07-09 17:06:22,360@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.8444636001531035
+2018-07-09 17:06:25,645@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(1, 0), value move=(2, 0)
+2018-07-09 17:06:25,679@connect4_zero.play_game.game_model DEBUG # evaluation by ai=1.0
+2018-07-09 17:06:26,075@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(3, 0), value move=(1, 0)
+2018-07-09 17:06:26,485@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.3621747159371835
+2018-07-09 17:06:37,140@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.6007562495107132
+2018-07-09 17:06:40,242@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.5949287942879028
+2018-07-09 17:06:42,556@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.3688307078924067
+2018-07-09 17:06:44,835@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.3874624594025416
+2018-07-09 17:06:47,341@connect4_zero.play_game.game_model DEBUG # evaluation by ai=1.0
+2018-07-09 17:11:27,305@connect4_zero.manager INFO # config type: mini
+2018-07-09 17:17:43,785@connect4_zero.manager INFO # config type: mini
+2018-07-09 17:19:04,017@connect4_zero.manager INFO # config type: mini
+2018-07-09 17:19:09,503@connect4_zero.agent.model_connect4 DEBUG # loading model from /Users/HoangNguyen/Desktop/F_SOFT/sampleConnect/data/model/model_best_config.json
+2018-07-09 17:19:09,632@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1188: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-07-09 17:19:10,661@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1205: calling reduce_prod (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-07-09 17:19:11,055@connect4_zero.agent.model_connect4 DEBUG # loaded model digest = 1e11d471bbb65d5e6189317dadb0a8c8750c7803b7709391d3f35496c40a9f27
+2018-07-09 17:19:11,055@asyncio DEBUG # Using selector: KqueueSelector
+2018-07-09 17:19:15,537@connect4_zero.worker.self_play DEBUG # game 1 time=4.482090950012207 sec, turn=9:XXXX  O  O      X      O      O            - Winner:Winner.white
+2018-07-09 17:19:29,241@connect4_zero.worker.self_play DEBUG # game 2 time=13.703376293182373 sec, turn=23:XXXOXOOOXOXOX  OOXO   XXXX     O      O    - Winner:Winner.white
+2018-07-09 17:19:50,684@connect4_zero.worker.self_play DEBUG # game 3 time=21.44268298149109 sec, turn=32:OOXOOXOXXXOXOXXOXXOOX XOO XO XXX    OOO    - Winner:Winner.black
+2018-07-09 17:20:03,841@connect4_zero.worker.self_play DEBUG # game 4 time=13.156474828720093 sec, turn=21:X  OXXXO  XOX O  OXX X  XOO    OXO    O    - Winner:Winner.white
+2018-07-09 17:20:33,091@connect4_zero.worker.self_play DEBUG # game 5 time=29.247572898864746 sec, turn=42:XOOXXOOOOXXOXXXXOOXXXOOXOXOOXXOOXOOOOXXOXX - Winner:Winner.draw
+2018-07-09 17:20:42,126@connect4_zero.worker.self_play DEBUG # game 6 time=9.032623291015625 sec, turn=14:X OXXXO  XOOOO   XX     O                  - Winner:Winner.black
+2018-07-09 17:20:53,113@connect4_zero.worker.self_play DEBUG # game 7 time=10.987005949020386 sec, turn=18:OXOXX  OXOO   OOXX   XXOX      O           - Winner:Winner.black
+2018-07-09 17:20:56,584@connect4_zero.worker.self_play DEBUG # game 8 time=3.470630168914795 sec, turn=7: XXXXO   O O                               - Winner:Winner.white
+2018-07-09 17:21:27,125@connect4_zero.worker.self_play DEBUG # game 9 time=30.54050302505493 sec, turn=42:OXXXOXXOOOXXOXOXOOOXXXOXXXOOOXXOOXXXOOXOOO - Winner:Winner.draw
+2018-07-09 17:21:53,761@connect4_zero.worker.self_play DEBUG # game 10 time=26.636146068572998 sec, turn=40:XXOOOXOXOXXXOXOXXOOXOXOOXXOXXXXOOOO OOXOX  - Winner:Winner.black
+2018-07-09 17:21:58,071@connect4_zero.worker.self_play DEBUG # game 11 time=4.30974006652832 sec, turn=11:OOXXXX O  O   X      O      X              - Winner:Winner.white
+2018-07-09 17:22:28,215@connect4_zero.worker.self_play DEBUG # game 12 time=30.143718957901 sec, turn=42:OXXXOXXOOOXXXOOXXOOOXXOOXXXOXXOOOXXOOXXOOO - Winner:Winner.draw
+2018-07-09 17:22:47,525@connect4_zero.worker.self_play DEBUG # game 13 time=19.310071229934692 sec, turn=28:XOOOXXOOXOXOOXXO XXX OX O   XX O   OO X    - Winner:Winner.black
+2018-07-09 17:22:51,741@connect4_zero.worker.self_play DEBUG # game 14 time=4.215290069580078 sec, turn=9:OXXXX O O O    X                           - Winner:Winner.white
+2018-07-09 17:22:59,301@connect4_zero.worker.self_play DEBUG # game 15 time=7.560186862945557 sec, turn=13:OXXXX O  X X    O O      O      X      O   - Winner:Winner.white
+2018-07-09 17:23:14,225@connect4_zero.worker.self_play DEBUG # game 16 time=14.923156976699829 sec, turn=24:OXXXOX XOXOOO OOOOX   XXXO    OXX          - Winner:Winner.black
+2018-07-09 17:23:41,625@connect4_zero.worker.self_play DEBUG # game 17 time=27.396963834762573 sec, turn=42:OXOXOOXXOOXXXOXXXOOOXXOOXXXOOOXOOXXXXOXOOO - Winner:Winner.draw
+2018-07-09 17:24:12,736@connect4_zero.worker.self_play DEBUG # game 18 time=31.111602306365967 sec, turn=42:XOXOXXXOOXXXOOXXOOOXXOOXXOOOXOOOXXXOXXXOOO - Winner:Winner.draw
+2018-07-09 17:24:23,181@connect4_zero.worker.self_play DEBUG # game 19 time=10.439948081970215 sec, turn=19:XOXO  OXXOX  XXXXO  OOOOX                  - Winner:Winner.white
+2018-07-09 17:24:31,889@connect4_zero.worker.self_play DEBUG # game 20 time=8.70777702331543 sec, turn=15:XOXOXX OXXXXO    OO      O                 - Winner:Winner.white
+2018-07-09 17:24:53,934@connect4_zero.worker.self_play DEBUG # game 21 time=22.044925928115845 sec, turn=38:XOXXXOOOOOOXXOOX XXOXXO XOXOOO XOOXXX OXXO - Winner:Winner.black
+2018-07-09 17:25:00,072@connect4_zero.worker.self_play DEBUG # game 22 time=6.138078927993774 sec, turn=11:OOOX O XXXX    O      X                    - Winner:Winner.white
+2018-07-09 17:25:06,521@connect4_zero.worker.self_play DEBUG # game 23 time=6.4487409591674805 sec, turn=12: XXOXXO OOOOX    X                         - Winner:Winner.black
+2018-07-09 17:25:20,877@connect4_zero.worker.self_play DEBUG # game 24 time=14.353515863418579 sec, turn=24:XOOXOXXOO OXOX X XOX  X OOO    XX      O   - Winner:Winner.black
+2018-07-09 17:25:40,617@connect4_zero.worker.self_play DEBUG # game 25 time=19.739670991897583 sec, turn=29:XOOXXOX O XOXO X OOXX O OXOO   XXXX   OOX  - Winner:Winner.white
+2018-07-09 17:25:56,574@connect4_zero.worker.self_play DEBUG # game 26 time=15.954102039337158 sec, turn=26:XOXOXXOX XOOOOO XXX    OOX    OXX    OXO   - Winner:Winner.black
+2018-07-09 17:26:24,625@connect4_zero.worker.self_play DEBUG # game 27 time=28.050513982772827 sec, turn=42:XOOXOXOOXOOOXXXOXXXOXOXXOOXOXOOXXOXOXXOOXO - Winner:Winner.draw
+2018-07-09 17:26:45,392@connect4_zero.worker.self_play DEBUG # game 28 time=20.766706228256226 sec, turn=34:XXOXOOOOOXOOXX XOXXXO OXOOOX  XOXX   OXXO  - Winner:Winner.black
+2018-07-09 17:26:53,504@connect4_zero.worker.self_play DEBUG # game 29 time=8.112147092819214 sec, turn=15:OOXXXOX   XOO    OXX     OX                - Winner:Winner.white
+2018-07-09 17:26:57,424@connect4_zero.worker.self_play DEBUG # game 30 time=3.919264078140259 sec, turn=7:XXXX O  OO                                 - Winner:Winner.white
+2018-07-09 17:27:06,034@connect4_zero.worker.self_play DEBUG # game 31 time=8.61031699180603 sec, turn=16:  OOXXX  OXXXO  XOOOO      X               - Winner:Winner.black
+2018-07-09 17:27:21,589@connect4_zero.worker.self_play DEBUG # game 32 time=15.554991245269775 sec, turn=24:OXXXOOXOXOXOOX OXOX   XOO    X X    O      - Winner:Winner.black
+2018-07-09 17:27:29,582@connect4_zero.worker.self_play DEBUG # game 33 time=7.99249267578125 sec, turn=15: XXOOOX OOXXXX   O      X      O           - Winner:Winner.white
+2018-07-09 17:27:42,144@connect4_zero.worker.self_play DEBUG # game 34 time=12.561702966690063 sec, turn=22:OXXXO XXOOOX   XXOX   OOOO     XO      X   - Winner:Winner.black
+2018-07-09 17:27:58,179@connect4_zero.worker.self_play DEBUG # game 35 time=16.034587860107422 sec, turn=27:OXXXOXXXOOOXOO XXXXOO OO OXX  X  O         - Winner:Winner.white
+2018-07-09 17:28:13,167@connect4_zero.worker.self_play DEBUG # game 36 time=14.988267183303833 sec, turn=23:XXOXOO XXXOXO OOOXO   XXOO   X X           - Winner:Winner.white
+2018-07-09 17:28:22,951@connect4_zero.worker.self_play DEBUG # game 37 time=9.783538818359375 sec, turn=16: OXOXXO   XOOX   OO     OX     XX          - Winner:Winner.black
+2018-07-09 17:28:37,648@connect4_zero.worker.self_play DEBUG # game 38 time=14.696497917175293 sec, turn=24:OXXOXXXXOOOOOX   OXXX   X XO   O O      O  - Winner:Winner.black
+2018-07-09 17:29:05,825@connect4_zero.worker.self_play DEBUG # game 39 time=28.177259922027588 sec, turn=42:XOXOXXOOXXXOOXXXOOXXOOOXOOOXXOOXXXOOXXOOOX - Winner:Winner.draw
+2018-07-09 17:29:27,582@connect4_zero.worker.self_play DEBUG # game 40 time=21.756105184555054 sec, turn=33:XXXOX OOOXOO OXXOXX OO XXO XX OXX OO XOX O - Winner:Winner.white
+2018-07-09 17:29:56,436@connect4_zero.worker.self_play DEBUG # game 41 time=28.853800773620605 sec, turn=42:XXOXXXOOOXOOOXXXOOXOXOOXXOXOXXOXOXOXOOXOOX - Winner:Winner.draw
+2018-07-09 17:30:08,331@connect4_zero.worker.self_play DEBUG # game 42 time=11.895704984664917 sec, turn=20:OXOXOX  XXOXO   OOOO   XXO     XX          - Winner:Winner.black
+2018-07-09 17:30:21,495@connect4_zero.worker.self_play DEBUG # game 43 time=13.163719177246094 sec, turn=23:O OXXOXX OXOXO   OOOX   XXXO   OX     X    - Winner:Winner.white
+2018-07-09 17:30:27,520@connect4_zero.worker.self_play DEBUG # game 44 time=6.024221897125244 sec, turn=10:OOOOXXO   XXX                              - Winner:Winner.black
+2018-07-09 17:30:33,233@connect4_zero.worker.self_play DEBUG # game 45 time=5.712575912475586 sec, turn=11:OOXXXXO   X  O   O      X                  - Winner:Winner.white
+2018-07-09 17:30:37,016@connect4_zero.worker.self_play DEBUG # game 46 time=3.78098201751709 sec, turn=7:   XOOO   X      X      X                  - Winner:Winner.white
+2018-07-09 17:30:54,420@connect4_zero.worker.self_play DEBUG # game 47 time=17.404091119766235 sec, turn=26:OOXXOXOOOOOXOX X XOX  O XXX    OX     XO   - Winner:Winner.black
+2018-07-09 17:30:58,666@connect4_zero.worker.self_play DEBUG # game 48 time=4.245069265365601 sec, turn=7:XXXXO O  O                                 - Winner:Winner.white
+2018-07-09 17:31:19,397@connect4_zero.worker.self_play DEBUG # game 49 time=20.73111915588379 sec, turn=31:XOXXOOX XOOXOO OXXOXO XOOX X  XXO O  OXX   - Winner:Winner.white
+2018-07-09 17:31:28,131@connect4_zero.worker.self_play INFO # save play data to /Users/HoangNguyen/Desktop/F_SOFT/sampleConnect/data/play_data/play_20180709-173128.131861.json
+2018-07-09 17:31:28,157@connect4_zero.worker.self_play DEBUG # game 50 time=8.759683847427368 sec, turn=15:OOXXXO XXXXOX  OO      O                   - Winner:Winner.white
+2018-07-09 17:31:28,157@connect4_zero.lib.model_helpler DEBUG # start reload the best model if changed
+2018-07-09 17:31:28,166@connect4_zero.lib.model_helpler DEBUG # the best model is not changed
+2018-07-09 17:31:56,960@connect4_zero.worker.self_play DEBUG # game 51 time=28.793402910232544 sec, turn=41:XOOXXXOOXXOOXOOOOXXXOOXOOXOXXOXXXOOXXX OOX - Winner:Winner.white
+2018-07-09 17:32:03,757@connect4_zero.worker.self_play DEBUG # game 52 time=6.7971179485321045 sec, turn=11: XOXOO  OXXXX      O                       - Winner:Winner.white
+2018-07-09 17:32:09,244@connect4_zero.worker.self_play DEBUG # game 53 time=5.48445987701416 sec, turn=12:XOOOOX XXX  O   O      X                   - Winner:Winner.black
+2018-07-09 17:32:23,722@connect4_zero.worker.self_play DEBUG # game 54 time=14.477665185928345 sec, turn=25:XOXXOOXOXOXO X OXOO   X XX   O XO   O X    - Winner:Winner.white
+2018-07-09 17:32:36,229@connect4_zero.worker.self_play DEBUG # game 55 time=12.506752014160156 sec, turn=21:X OXOOOX XXXX O  OX  O  XX     OO     XO   - Winner:Winner.white
+2018-07-09 17:32:45,347@connect4_zero.worker.self_play DEBUG # game 56 time=9.117753267288208 sec, turn=16:X OOXOO  XXXOX   OOX    OX                 - Winner:Winner.black
+2018-07-09 17:32:49,367@connect4_zero.worker.self_play DEBUG # game 57 time=4.019790172576904 sec, turn=7: XXXXOO     O                              - Winner:Winner.white
+2018-07-09 17:33:08,510@connect4_zero.worker.self_play DEBUG # game 58 time=19.143043756484985 sec, turn=27:OXOXXO XOXOOX  XOXXX  OO XO  XX XO     OO  - Winner:Winner.white
+2018-07-09 17:33:14,246@connect4_zero.worker.self_play DEBUG # game 59 time=5.732485055923462 sec, turn=9:OX O  O X X    X O    X                    - Winner:Winner.white
+2018-07-09 17:33:40,502@connect4_zero.worker.self_play DEBUG # game 60 time=26.255990982055664 sec, turn=39:OXOOXXOOOOXOXOXXXOXOOOO XXOXXO XXXOXX OOXX - Winner:Winner.white
+2018-07-09 17:33:52,432@connect4_zero.worker.self_play DEBUG # game 61 time=11.929610013961792 sec, turn=20:OXOOOOX OXXX X X O  X O X  O   O      X    - Winner:Winner.black
+2018-07-09 17:34:03,745@connect4_zero.worker.self_play DEBUG # game 62 time=11.313334703445435 sec, turn=19:XXOOOXX OXXXOO O XOX    OX                 - Winner:Winner.white
+2018-07-09 17:34:31,127@connect4_zero.worker.self_play DEBUG # game 63 time=27.378902912139893 sec, turn=40:OOXXOXXXXOOXXOXOXXOOOXXOOXXOOOO OOXXOX XXO - Winner:Winner.black
+2018-07-09 17:35:01,512@connect4_zero.worker.self_play DEBUG # game 64 time=30.384818077087402 sec, turn=42:XOOXOXOXOXXOOOXXXOOXXOOXXXOOXXOOXXXOOOXXOO - Winner:Winner.draw
+2018-07-09 17:35:19,318@connect4_zero.worker.self_play DEBUG # game 65 time=17.80575394630432 sec, turn=31:XOXXOXOOXO XOXXOO XXXOXX OOX OX O   OO X   - Winner:Winner.white
+2018-07-09 17:35:44,190@connect4_zero.worker.self_play DEBUG # game 66 time=24.871747970581055 sec, turn=40:XOOXOXOXXXOOXOOOOXXOOXXOOOOXOOXO XXXXOX XX - Winner:Winner.black
+2018-07-09 17:35:54,597@connect4_zero.worker.self_play DEBUG # game 67 time=10.40714406967163 sec, turn=17:XOXOXO   OXOX   O XX   X OX      O         - Winner:Winner.white
+2018-07-09 17:36:01,103@connect4_zero.worker.self_play DEBUG # game 68 time=6.506047010421753 sec, turn=11:OXOXOOX O X      X      X                  - Winner:Winner.white
+2018-07-09 17:36:04,193@connect4_zero.worker.self_play DEBUG # game 69 time=3.089324712753296 sec, turn=7:OXXXX   O O                                - Winner:Winner.white
+2018-07-09 18:50:18,539@connect4_zero.worker.self_play DEBUG # game 70 time=4454.342211008072 sec, turn=39:OXXOXOOXOOXOOXOOXXXXOXX XOOXOO OXXOXX XOOX - Winner:Winner.white
+2018-07-09 18:50:25,154@connect4_zero.worker.self_play DEBUG # game 71 time=6.6153130531311035 sec, turn=11:OOXXXX OX O    O X                         - Winner:Winner.white
+2018-07-09 19:15:38,227@connect4_zero.worker.self_play DEBUG # game 72 time=1513.0725111961365 sec, turn=42:OOOXXOXOOXOOOXXXOOXXXOOXXOOOXXOOXXXXOXXXOO - Winner:Winner.draw
+2018-07-09 19:15:51,390@connect4_zero.worker.self_play DEBUG # game 73 time=13.162291049957275 sec, turn=19:XOXOXO  OXXOO  XOXXX   OO X                - Winner:Winner.white
+2018-07-09 19:35:56,356@connect4_zero.worker.self_play DEBUG # game 74 time=1204.9662199020386 sec, turn=35:XOXXOXOOOXOXOXX OXXOXO X OXOX O XXXO O XOO - Winner:Winner.white
+2018-07-09 19:36:03,614@connect4_zero.worker.self_play DEBUG # game 75 time=7.257375955581665 sec, turn=10:X OX  XX OX  O  O      O                   - Winner:Winner.black
+2018-07-09 19:36:42,788@connect4_zero.worker.self_play DEBUG # game 76 time=39.17395806312561 sec, turn=36:OXXOXXOXOXXOXXXOOOXOOOOXXO XXXOOX  OXOO    - Winner:Winner.black
+2018-07-09 19:37:00,818@connect4_zero.worker.self_play DEBUG # game 77 time=18.029008150100708 sec, turn=18:XOXOOXO  OXOXX  OOX X  X O                 - Winner:Winner.black
+2018-07-09 19:37:37,694@connect4_zero.worker.self_play DEBUG # game 78 time=36.87568998336792 sec, turn=36:XXOXOOOOOXXXOXXXXOOXOOOOXXO  XXOOX  OXOX   - Winner:Winner.black
+2018-07-09 19:37:49,233@connect4_zero.worker.self_play DEBUG # game 79 time=11.53480076789856 sec, turn=16:OXXXOOXXOOOX    OX     XO                  - Winner:Winner.black
+2018-07-09 19:38:02,737@connect4_zero.worker.self_play DEBUG # game 80 time=13.503398180007935 sec, turn=19: XOXOXO OOXXXX  XXO    OOX     O           - Winner:Winner.white
+2018-07-09 19:38:34,354@connect4_zero.worker.self_play DEBUG # game 81 time=31.6169650554657 sec, turn=36:XXOOXXOXOOXOOOOXXOXOXXOOXXXO XOOOX    XXO  - Winner:Winner.black
+2018-07-09 19:38:39,336@connect4_zero.worker.self_play DEBUG # game 82 time=4.981810808181763 sec, turn=8:XOOOOX   XX                                - Winner:Winner.black
+2018-07-09 19:39:07,034@connect4_zero.worker.self_play DEBUG # game 83 time=27.69515299797058 sec, turn=32:O OXXOXO XXOOXX XOXXXO OXOOOX  OXO X  XOO  - Winner:Winner.black
+2018-07-09 19:39:33,578@connect4_zero.worker.self_play DEBUG # game 84 time=26.544548988342285 sec, turn=30:OOXOXXXX OXXOOO XOOXOX OXXO    XOO    OXX  - Winner:Winner.black
+2018-07-09 19:39:38,081@connect4_zero.worker.self_play DEBUG # game 85 time=4.502182722091675 sec, turn=7:O XXXXO    O                               - Winner:Winner.white
+2018-07-09 19:39:42,943@connect4_zero.worker.self_play DEBUG # game 86 time=4.859667062759399 sec, turn=11:XXXX OX O O      O      O      X           - Winner:Winner.white
+2018-07-09 19:40:10,912@connect4_zero.worker.self_play DEBUG # game 87 time=27.968682050704956 sec, turn=33:XOXXOOOOXOOXXOOXXXOO XXOOXX OXXXOO    X    - Winner:Winner.white
+2018-07-09 19:40:17,868@connect4_zero.worker.self_play DEBUG # game 88 time=6.955820083618164 sec, turn=10:XXOO    XOX    XO      O                   - Winner:Winner.black
+2018-07-09 19:40:56,060@connect4_zero.worker.self_play DEBUG # game 89 time=38.19149994850159 sec, turn=42:OXOXXXOOOXOOOXXXOOXXXOOXXOOOXXOOXXOXOXXXOO - Winner:Winner.draw
+2018-07-09 19:41:27,530@connect4_zero.worker.self_play DEBUG # game 90 time=31.47017502784729 sec, turn=31:XOXXOOOOXOXOXXXOXOXX OO XXO  X OOO    XX   - Winner:Winner.white
+2018-07-09 19:41:43,213@connect4_zero.worker.self_play DEBUG # game 91 time=15.68229603767395 sec, turn=19:OXOXOX  XXOX   OXXO   XXO     OO           - Winner:Winner.white
+2018-07-09 19:41:54,532@connect4_zero.worker.self_play DEBUG # game 92 time=11.319158792495728 sec, turn=16:OXOX OX OOX X   OO     XO     XX           - Winner:Winner.black
+2018-07-09 19:42:20,034@connect4_zero.worker.self_play DEBUG # game 93 time=25.501200914382935 sec, turn=29:XOOXOOXOXXOXX XOOXO   XXOO   OXXX   O XO   - Winner:Winner.white
+2018-07-09 19:42:32,591@connect4_zero.worker.self_play DEBUG # game 94 time=12.555310010910034 sec, turn=17:XXXOOX OXOXX   OOX     XO      O           - Winner:Winner.white
+2018-07-09 19:43:04,291@connect4_zero.worker.self_play DEBUG # game 95 time=31.699983835220337 sec, turn=42:XOOOXXOXXXOOXXOOOXXOOXXOOXXXOOXXXOOXXOOOXO - Winner:Winner.draw
+2018-07-09 19:43:10,495@connect4_zero.worker.self_play DEBUG # game 96 time=6.20387601852417 sec, turn=11:OXXXXXOO  O X      O                       - Winner:Winner.white
+2018-07-09 19:43:16,617@connect4_zero.worker.self_play DEBUG # game 97 time=6.121272802352905 sec, turn=7:OXXXX O  O                                 - Winner:Winner.white
+2018-07-09 19:43:24,988@connect4_zero.worker.self_play DEBUG # game 98 time=8.36752986907959 sec, turn=10:  XOOOO  XX X    X      O                  - Winner:Winner.black
+2018-07-09 19:43:54,552@connect4_zero.worker.self_play DEBUG # game 99 time=29.563986778259277 sec, turn=30:XXOXOXXOOXOOOOXOOXX X XXOO   OOXX    O X   - Winner:Winner.black
+2018-07-09 19:44:14,694@connect4_zero.worker.self_play INFO # save play data to /Users/HoangNguyen/Desktop/F_SOFT/sampleConnect/data/play_data/play_20180709-194414.694410.json
+2018-07-09 19:44:14,721@connect4_zero.worker.self_play DEBUG # game 100 time=20.169228076934814 sec, turn=27:XXOOOXX OXXXXO OO OOX OX XXO X  O   O  X   - Winner:Winner.white
+2018-07-09 19:44:14,722@connect4_zero.lib.model_helpler DEBUG # start reload the best model if changed
+2018-07-09 19:44:14,731@connect4_zero.lib.model_helpler DEBUG # the best model is not changed
+2018-07-09 19:44:42,816@connect4_zero.worker.self_play DEBUG # game 101 time=28.08458185195923 sec, turn=39:OOXXOXXXXXOXOOXOXOXXOOXOOX XOXXXO OOXOOO X - Winner:Winner.white
+2018-07-09 19:44:53,169@connect4_zero.worker.self_play DEBUG # game 102 time=10.352942943572998 sec, turn=17: XOOXO  XXOXO  O XOX    OX     X           - Winner:Winner.white
+2018-07-09 19:45:11,097@connect4_zero.worker.self_play DEBUG # game 103 time=17.928021907806396 sec, turn=28:OXOXO XOXOXX XXXXO  XOOOO  O OXX    OOX    - Winner:Winner.black
+2018-07-09 19:45:23,942@connect4_zero.worker.self_play DEBUG # game 104 time=12.844089031219482 sec, turn=21:XOOOXOOOXXOXX   XXO     XX     XO     O    - Winner:Winner.white
+2018-07-09 19:45:34,084@connect4_zero.worker.self_play DEBUG # game 105 time=10.142180919647217 sec, turn=15:XOOXX OOOXOX  XX  O  X                     - Winner:Winner.white
+2018-07-09 19:45:41,736@connect4_zero.worker.self_play DEBUG # game 106 time=7.6514060497283936 sec, turn=14:XXXOOOXXOOOOX     X                        - Winner:Winner.black
+2018-07-09 19:46:12,516@connect4_zero.worker.self_play DEBUG # game 107 time=30.780619621276855 sec, turn=40:XXOOXOXOOOXOOXOXXOXXOXOOXXOXXX OOXOOO XOXX - Winner:Winner.black
+2018-07-09 19:46:46,538@connect4_zero.worker.self_play DEBUG # game 108 time=34.02091407775879 sec, turn=42:OXXXOOXOXXOXXXXOOXXOXOXOOOXOXOXXXOXOXOOOOO - Winner:Winner.black
+2018-07-09 19:47:12,532@connect4_zero.worker.self_play DEBUG # game 109 time=25.994196891784668 sec, turn=39:XOXXOXXOXOOXOOOOOXOOXXXX XXOOOX OOXXOX XXO - Winner:Winner.white
+2018-07-09 19:47:24,354@connect4_zero.worker.self_play DEBUG # game 110 time=11.821690082550049 sec, turn=12:OOOOX    XOX     XO     XX                 - Winner:Winner.black
+2018-07-09 19:47:42,485@connect4_zero.worker.self_play DEBUG # game 111 time=18.131293296813965 sec, turn=21:XOXXXOXOOOX  O XXO    XOO    X X    O      - Winner:Winner.white
+2018-07-09 19:47:51,032@connect4_zero.worker.self_play DEBUG # game 112 time=8.546469926834106 sec, turn=15:OXXXXO O OX   O XX   X OO                  - Winner:Winner.white
+2018-07-09 19:48:19,142@connect4_zero.worker.self_play DEBUG # game 113 time=28.109673976898193 sec, turn=36:XXOOXOOOOXOOXX XOXXXO OOOOOX XX XXO OX OXX - Winner:Winner.black
+2018-07-09 19:48:35,852@connect4_zero.worker.self_play DEBUG # game 114 time=16.709917068481445 sec, turn=24:OXOOXXX OXOXXO XOOOX  XXX O    O      O    - Winner:Winner.black
+2018-07-09 19:48:55,187@connect4_zero.worker.self_play DEBUG # game 115 time=19.33181881904602 sec, turn=23:XOXXO XXXOOO  OOXOX   X XX   O XO     O    - Winner:Winner.white
+2018-07-09 19:49:02,900@connect4_zero.worker.self_play DEBUG # game 116 time=7.712880849838257 sec, turn=13:OOOXXXXOX X O    X      O                  - Winner:Winner.white
+2018-07-09 19:49:09,664@connect4_zero.worker.self_play DEBUG # game 117 time=6.763642072677612 sec, turn=12:XXOOOOX   OXX    O      X                  - Winner:Winner.black
+2018-07-09 19:49:14,046@connect4_zero.worker.self_play DEBUG # game 118 time=4.382634162902832 sec, turn=7:OXXXX O      O                             - Winner:Winner.white
+2018-07-09 19:49:36,594@connect4_zero.worker.self_play DEBUG # game 119 time=22.546898126602173 sec, turn=33:OXXOXO XXOXOO OOXOXX XO XOO XX OXX OO OXX  - Winner:Winner.white
+2018-07-09 19:49:53,531@connect4_zero.worker.self_play DEBUG # game 120 time=16.937443733215332 sec, turn=24:OOXXXO XOOXXX OXXXO  OOOOX    XO           - Winner:Winner.black
+2018-07-09 19:50:01,342@connect4_zero.worker.self_play DEBUG # game 121 time=7.810048818588257 sec, turn=11: XOOXOO O  X   X  X      X                 - Winner:Winner.white
+2018-07-09 19:50:14,383@connect4_zero.worker.self_play DEBUG # game 122 time=13.040866136550903 sec, turn=19:OXXXOXOO XXO    XXX    OOX     OO          - Winner:Winner.white
+2018-07-09 19:50:37,739@connect4_zero.worker.self_play DEBUG # game 123 time=23.356040954589844 sec, turn=30:OXOXXOXXXOXOOXO XOOOOX XX XX  OO O   OX    - Winner:Winner.black
+2018-07-09 19:50:43,538@connect4_zero.worker.self_play DEBUG # game 124 time=5.799343109130859 sec, turn=9:O  XOO    XXO    X      X                  - Winner:Winner.white
+2018-07-09 19:50:56,398@connect4_zero.worker.self_play DEBUG # game 125 time=12.859605073928833 sec, turn=18:XXOXOO OOOOX    XXX     OX     XO          - Winner:Winner.black
+2018-07-09 19:51:20,960@connect4_zero.worker.self_play DEBUG # game 126 time=24.561072826385498 sec, turn=31:XXOXXXOOOXOOOXXXOOX  OOOXO  XXXXO     OX   - Winner:Winner.white
+2018-07-09 19:51:39,416@connect4_zero.worker.self_play DEBUG # game 127 time=18.456496238708496 sec, turn=26:OXOXOXXXOXOOOXOOOOX   X XO   X XX      O   - Winner:Winner.black
+2018-07-09 19:51:46,916@connect4_zero.worker.self_play DEBUG # game 128 time=7.499061107635498 sec, turn=11: XXXXOX   OOO    X      O                  - Winner:Winner.white
+2018-07-09 19:52:03,371@connect4_zero.worker.self_play DEBUG # game 129 time=16.455349922180176 sec, turn=21: OOXOX   XOXX   OOXO   XXO    XXO     OX   - Winner:Winner.white
+2018-07-09 19:52:11,547@connect4_zero.worker.self_play DEBUG # game 130 time=8.174880981445312 sec, turn=11:OOXXXX O O      X      O      X            - Winner:Winner.white
+2018-07-09 19:52:47,114@connect4_zero.worker.self_play DEBUG # game 131 time=35.56693196296692 sec, turn=42:XXOXOXOXOOOXXXOXXXOOXXOOOXXOOXXOOXXXOOOXOO - Winner:Winner.draw
+2018-07-09 19:53:00,853@connect4_zero.worker.self_play DEBUG # game 132 time=13.739145040512085 sec, turn=18:XXOXOO  OXO O  XOX    OXX     XO           - Winner:Winner.black
+2018-07-09 19:53:31,278@connect4_zero.worker.self_play DEBUG # game 133 time=30.424496173858643 sec, turn=36:XXXOXOOXOOXXOOOXXXOXX OOXXO  OXOXX  XOOOO  - Winner:Winner.black
+2018-07-09 19:53:36,226@connect4_zero.worker.self_play DEBUG # game 134 time=4.947699069976807 sec, turn=7:XXXXO OO                                   - Winner:Winner.white
+2018-07-09 19:53:53,405@connect4_zero.worker.self_play DEBUG # game 135 time=17.175530910491943 sec, turn=21:XXXOXX   OXOO   OOXO   OXOX   XOX          - Winner:Winner.white
+2018-07-09 19:54:31,137@connect4_zero.worker.self_play DEBUG # game 136 time=37.7323317527771 sec, turn=42:OXXXOOXXOOOXXOOXXOOOXXOOXXXOOXXOOXXXOOXXOO - Winner:Winner.draw
+2018-07-09 19:54:55,217@connect4_zero.worker.self_play DEBUG # game 137 time=24.078907251358032 sec, turn=31:OXOOOXXXXOXXXOOXXXXOXXOO OOX  X O O  O     - Winner:Winner.white
+2018-07-09 19:55:10,834@connect4_zero.worker.self_play DEBUG # game 138 time=15.616903066635132 sec, turn=22: XOXOXO XOOOOX XXX X  OOO     XO      X    - Winner:Winner.black
+2018-07-09 19:55:19,490@connect4_zero.worker.self_play DEBUG # game 139 time=8.656426191329956 sec, turn=11:XXXXO O O OX X      O                      - Winner:Winner.white
+2018-07-09 19:55:30,995@connect4_zero.worker.self_play DEBUG # game 140 time=11.504040956497192 sec, turn=17:OXOXOXX  XOOOX   XO     XX     O           - Winner:Winner.white
+2018-07-09 19:55:44,580@connect4_zero.worker.self_play DEBUG # game 141 time=13.585285186767578 sec, turn=19:OXOXX  OXXOX  XXXXO  OOO O                 - Winner:Winner.white
+2018-07-09 19:56:08,068@connect4_zero.worker.self_play DEBUG # game 142 time=23.487451314926147 sec, turn=33:OOOXXXOXOXO XXXXOO OOX OX XXO XO OXO OX  X - Winner:Winner.white
+2018-07-09 19:56:37,192@connect4_zero.worker.self_play DEBUG # game 143 time=29.12414002418518 sec, turn=38:XOXXOXXOXOOOOXXOOXX XOXXOO OXXOOX OOOXXO X - Winner:Winner.black
+2018-07-09 19:56:54,368@connect4_zero.worker.self_play DEBUG # game 144 time=17.175450086593628 sec, turn=24:XXXOO XXOOXX  OOXOO   XOXX    XOO      O   - Winner:Winner.black
+2018-07-09 19:57:20,614@connect4_zero.worker.self_play DEBUG # game 145 time=26.245491981506348 sec, turn=34:OXOXOXXXOOXXO OOXOOX XOOXXO OX OOX XX XO   - Winner:Winner.black
+2018-07-09 19:58:02,151@connect4_zero.worker.self_play DEBUG # game 146 time=41.536778926849365 sec, turn=42:OXXXOXOOOOXXOXXXXOOXXOOOXXOOXXXOXXXOOOXOOO - Winner:Winner.draw
+2018-07-09 19:58:29,589@connect4_zero.worker.self_play DEBUG # game 147 time=27.438299894332886 sec, turn=34:XOXXXOXXX XOOOOX OXXXXO XOOOO  XOOXO  XO O - Winner:Winner.black
+2018-07-09 19:59:06,387@connect4_zero.worker.self_play DEBUG # game 148 time=36.79708218574524 sec, turn=39:OOXXOXXXXOOXXOOOOXOOOXXX XXXOOO XOXXXO OXO - Winner:Winner.white
+2018-07-09 19:59:18,528@connect4_zero.worker.self_play DEBUG # game 149 time=12.14120888710022 sec, turn=13:OOXX   OXXO   OX X   X  O                  - Winner:Winner.white
+2018-07-09 19:59:59,039@connect4_zero.worker.self_play INFO # save play data to /Users/HoangNguyen/Desktop/F_SOFT/sampleConnect/data/play_data/play_20180709-195959.039170.json
+2018-07-09 19:59:59,071@connect4_zero.worker.self_play DEBUG # game 150 time=40.542174339294434 sec, turn=42:OXXXOOOXOOOXXOOOXXXOXXXOOXXOOXXXOOXXXOOOXO - Winner:Winner.draw
+2018-07-09 19:59:59,071@connect4_zero.lib.model_helpler DEBUG # start reload the best model if changed
+2018-07-09 19:59:59,081@connect4_zero.lib.model_helpler DEBUG # the best model is not changed
+2018-07-09 20:00:13,122@connect4_zero.worker.self_play DEBUG # game 151 time=14.040858030319214 sec, turn=19:OXXXXO X XOOO X OXX  O XOO                 - Winner:Winner.white
+2018-07-09 20:00:27,766@connect4_zero.worker.self_play DEBUG # game 152 time=14.643519878387451 sec, turn=19:OX OOXXXO XOX    OXX    XXO    OO          - Winner:Winner.white
+2018-07-09 20:00:36,345@connect4_zero.worker.self_play DEBUG # game 153 time=8.578665971755981 sec, turn=10: XOX X   XO     XO      O      O           - Winner:Winner.black
+2018-07-09 20:00:48,657@connect4_zero.worker.self_play DEBUG # game 154 time=12.311625242233276 sec, turn=17: OXOOXX OOXOO   XXXX     XO                - Winner:Winner.white
+2018-07-09 20:01:11,169@connect4_zero.worker.self_play DEBUG # game 155 time=22.512022018432617 sec, turn=26:XOXOX XOXOXX O X OO X O XO O X OO   X OX   - Winner:Winner.black
+2018-07-09 20:01:37,767@connect4_zero.worker.self_play DEBUG # game 156 time=26.597402095794678 sec, turn=32:X OXOOXX OXXXOX OXOOXO XOXXX  XOOOO  OXO   - Winner:Winner.black
+2018-07-09 20:02:13,433@connect4_zero.worker.self_play DEBUG # game 157 time=35.66513514518738 sec, turn=39:XXOOXXOOOOXOXOXXXOXOOOX OXXXOX XXOOXO OOXX - Winner:Winner.white
+2018-07-09 20:02:31,168@connect4_zero.worker.self_play DEBUG # game 158 time=17.734903812408447 sec, turn=24:OXXOXXXXOOOOXO   XOO    XXX    OO     OX   - Winner:Winner.black
+2018-07-09 20:02:39,193@connect4_zero.worker.self_play DEBUG # game 159 time=8.025124073028564 sec, turn=12:  XOXXX  XOOOO   X      O                  - Winner:Winner.black
+2018-07-09 20:02:44,377@connect4_zero.worker.self_play DEBUG # game 160 time=5.183604955673218 sec, turn=7: OOXXXX  O                                 - Winner:Winner.white
+2018-07-09 20:02:52,974@connect4_zero.worker.self_play DEBUG # game 161 time=8.597052097320557 sec, turn=13: OXXXOO OXXXXO    O                        - Winner:Winner.white
+2018-07-09 20:03:16,855@connect4_zero.worker.self_play DEBUG # game 162 time=23.88027334213257 sec, turn=28:OXXXOOOXXOOXX OOXXO  XXOOX  O XOX      O   - Winner:Winner.black
+2018-07-09 20:03:31,774@connect4_zero.worker.self_play DEBUG # game 163 time=14.918552875518799 sec, turn=18:X  OXXOX  XOXO   OOO    XOX    OX          - Winner:Winner.black
+2018-07-09 20:03:43,368@connect4_zero.worker.self_play DEBUG # game 164 time=11.594303131103516 sec, turn=17: OXXXOO OXX O  XXX    XOO     O            - Winner:Winner.white
+2018-07-09 20:04:04,213@connect4_zero.worker.self_play DEBUG # game 165 time=20.844727039337158 sec, turn=26:XOXXO XXOXOO O XOXO   XOOX   OX O   OX X   - Winner:Winner.black
+2018-07-09 20:04:24,256@connect4_zero.worker.self_play DEBUG # game 166 time=20.04239583015442 sec, turn=25:OXXXOXOOXOOX   OXOX   OOXO   XXXX     O    - Winner:Winner.white
+2018-07-09 20:04:56,725@connect4_zero.worker.self_play DEBUG # game 167 time=32.46878385543823 sec, turn=38:OXXXOXXXOOOXOOOXO OOXXOX OXOOXO OXXXXX XOO - Winner:Winner.black
+2018-07-09 20:05:09,592@connect4_zero.worker.self_play DEBUG # game 168 time=12.866474866867065 sec, turn=14:  XOXXX  OOOO   OX     XO      X           - Winner:Winner.black
+2018-07-09 20:05:40,196@connect4_zero.worker.self_play DEBUG # game 169 time=30.6046142578125 sec, turn=33:OOOXXOXXXOOOXXOOXXOOO XXOOXX  OXXXX   O    - Winner:Winner.white
+2018-07-09 20:05:57,430@connect4_zero.worker.self_play DEBUG # game 170 time=17.233062267303467 sec, turn=22:OXOO XXXOXO XO  OX OO  XO XX   X      O    - Winner:Winner.black
+2018-07-09 20:06:18,327@connect4_zero.worker.self_play DEBUG # game 171 time=20.89682102203369 sec, turn=26:XOOOXO XXOXXX OXXXO  XOOOX  X OO      O    - Winner:Winner.black
+2018-07-09 20:06:24,926@connect4_zero.worker.self_play DEBUG # game 172 time=6.59878396987915 sec, turn=9: OOXXXX OXO                                - Winner:Winner.white
+2018-07-09 20:06:42,425@connect4_zero.worker.self_play DEBUG # game 173 time=17.498628854751587 sec, turn=25:OXOXOOXXOXXOOX XOOXO   XXOX    X      O    - Winner:Winner.white
+2018-07-09 20:07:11,469@connect4_zero.worker.self_play DEBUG # game 174 time=29.043731927871704 sec, turn=34:XOOOXXOOOXXXOOXXXOXO  OOXOX  XOOOX  XXXO   - Winner:Winner.black
+2018-07-09 20:07:24,022@connect4_zero.worker.self_play DEBUG # game 175 time=12.5534029006958 sec, turn=16:OXOOOOXXXOX    OX     XO     X             - Winner:Winner.black
+2018-07-09 20:07:28,731@connect4_zero.worker.self_play DEBUG # game 176 time=4.708928108215332 sec, turn=8:XOOOO X   X  X                             - Winner:Winner.black
+2018-07-09 20:07:41,593@connect4_zero.worker.self_play DEBUG # game 177 time=12.860945224761963 sec, turn=20:OXXOXXX XOOOO  OOX    XOO     XX           - Winner:Winner.black
+2018-07-09 20:07:49,868@connect4_zero.worker.self_play DEBUG # game 178 time=8.275132894515991 sec, turn=9:XXXXO    O O    X      O                   - Winner:Winner.white
+2018-07-09 20:08:03,264@connect4_zero.worker.self_play DEBUG # game 179 time=13.396322965621948 sec, turn=20:OXXXO XOXOOX  XOOOX   OXXO                 - Winner:Winner.black
+2018-07-09 20:08:16,571@connect4_zero.worker.self_play DEBUG # game 180 time=13.306383848190308 sec, turn=19: XXOOX  XXXXO  O OOX  X X O    O O         - Winner:Winner.white
+2018-07-09 20:08:22,496@connect4_zero.worker.self_play DEBUG # game 181 time=5.924890041351318 sec, turn=9: XXXX O OX O      O                        - Winner:Winner.white
+2018-07-09 20:08:41,181@connect4_zero.worker.self_play DEBUG # game 182 time=18.68449592590332 sec, turn=23:OXOXOOXOXOXXO   XOOX   OXXX    OX          - Winner:Winner.white
+2018-07-09 20:09:04,581@connect4_zero.worker.self_play DEBUG # game 183 time=23.399801015853882 sec, turn=28:XOXOXX OXXXOO OOOOXX X XXOO   OOXX   O     - Winner:Winner.black
+2018-07-09 20:09:14,051@connect4_zero.worker.self_play DEBUG # game 184 time=9.469989776611328 sec, turn=13:  OXXXX  XOO    OXO     OX                 - Winner:Winner.white
+2018-07-09 20:09:42,598@connect4_zero.worker.self_play DEBUG # game 185 time=28.546540021896362 sec, turn=38:OOXXOXXXOOOOXXOXX OXXXOO XOOOOX OXOXOX XOX - Winner:Winner.black
+2018-07-09 20:10:10,029@connect4_zero.worker.self_play DEBUG # game 186 time=27.43111777305603 sec, turn=28:XXXOOXOXOOXXOO XXOXXO XOXOOX   O O         - Winner:Winner.black
+2018-07-09 20:10:19,979@connect4_zero.worker.self_play DEBUG # game 187 time=9.949665069580078 sec, turn=10:  XOXO   XX O    X O      O                - Winner:Winner.black
+2018-07-09 20:10:38,608@connect4_zero.worker.self_play DEBUG # game 188 time=18.628634214401245 sec, turn=27:X OOXOOO XOXX   XXXO   OXOX   OXXO   OOXX  - Winner:Winner.white
+2018-07-09 20:10:48,389@connect4_zero.worker.self_play DEBUG # game 189 time=9.780436992645264 sec, turn=16:XOOOXXX XOOOOO  X X      X                 - Winner:Winner.black
+2018-07-09 20:11:11,147@connect4_zero.worker.self_play DEBUG # game 190 time=22.758471250534058 sec, turn=29:OXOXXOXXXOXOOO XXOOX  O XXO  X XXO    OO   - Winner:Winner.white
+2018-07-09 20:11:37,916@connect4_zero.worker.self_play DEBUG # game 191 time=26.768327951431274 sec, turn=35:OXOXOXXXOOXXOX XXOXXX OOXOOO OX OXX X  OOO - Winner:Winner.white
+2018-07-09 20:11:49,149@connect4_zero.worker.self_play DEBUG # game 192 time=11.233270168304443 sec, turn=15:XOXXO O XXO     XX     OX     OO           - Winner:Winner.white
+2018-07-09 20:12:17,015@connect4_zero.worker.self_play DEBUG # game 193 time=27.862201929092407 sec, turn=31:OXOXXO XXXOXO OXXOOO X OXXX O XXOO   OOX   - Winner:Winner.white
+2018-07-09 20:12:21,043@connect4_zero.worker.self_play DEBUG # game 194 time=4.027602195739746 sec, turn=7: OOXXXX    O                               - Winner:Winner.white
+2018-07-09 20:12:49,911@connect4_zero.worker.self_play DEBUG # game 195 time=28.8679678440094 sec, turn=26:OOXXXOX XXO XO OXX OO XOO OO  XX XO        - Winner:Winner.black
+2018-07-09 20:12:57,869@connect4_zero.worker.self_play DEBUG # game 196 time=7.956202983856201 sec, turn=9:XXXXOO  O O      X                         - Winner:Winner.white
+2018-07-09 20:13:17,874@connect4_zero.worker.self_play DEBUG # game 197 time=20.005254983901978 sec, turn=27:OXXOXO  OXXXO  XOOXX  OXXOO  OXXOO  X      - Winner:Winner.white
+2018-07-09 20:13:34,014@connect4_zero.worker.self_play DEBUG # game 198 time=16.139564037322998 sec, turn=19: OOXX O XXOO   OXXO    XXX    OOX          - Winner:Winner.white
+2018-07-09 20:13:47,737@connect4_zero.worker.self_play DEBUG # game 199 time=13.72206425666809 sec, turn=17:OX OXOX X XXXX   OO     OO     X      O    - Winner:Winner.white
+2018-07-09 20:14:02,270@connect4_zero.worker.self_play INFO # save play data to /Users/HoangNguyen/Desktop/F_SOFT/sampleConnect/data/play_data/play_20180709-201402.270576.json
+2018-07-09 20:14:02,296@connect4_zero.worker.self_play DEBUG # game 200 time=14.559536933898926 sec, turn=21:OXXOXX O OXOO   XXXX   XO O   OO      X    - Winner:Winner.white
+2018-07-09 20:14:02,296@connect4_zero.lib.model_helpler DEBUG # start reload the best model if changed
+2018-07-09 20:14:02,307@connect4_zero.lib.model_helpler DEBUG # the best model is not changed
+2018-07-09 20:14:29,358@connect4_zero.worker.self_play DEBUG # game 201 time=27.051267862319946 sec, turn=37:OXXXOOOOXOOXXOXXXXXOOOO OXXXXO XOX XO OXO  - Winner:Winner.white
+2018-07-09 20:14:44,625@connect4_zero.worker.self_play DEBUG # game 202 time=15.266084909439087 sec, turn=24:XO OXXOXO XXOO X OXO  X XOO  O OXX         - Winner:Winner.black
+2018-07-09 20:14:59,171@connect4_zero.worker.self_play DEBUG # game 203 time=14.546218633651733 sec, turn=25: OOXXXO OXXXOO XXOXO   XXO    OXO     OX   - Winner:Winner.white
+2018-07-09 20:18:00,350@connect4_zero.manager INFO # config type: normal
+2018-07-09 20:18:06,499@connect4_zero.worker.optimize DEBUG # loading best model
+2018-07-09 20:18:06,500@connect4_zero.agent.model_connect4 DEBUG # loading model from /Users/HoangNguyen/Desktop/F_SOFT/sampleConnect/data/model/model_best_config.json
+2018-07-09 20:18:06,628@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1188: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-07-09 20:18:07,647@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1205: calling reduce_prod (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-07-09 20:18:08,036@connect4_zero.agent.model_connect4 DEBUG # loaded model digest = 1e11d471bbb65d5e6189317dadb0a8c8750c7803b7709391d3f35496c40a9f27
+2018-07-09 20:18:08,063@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1290: calling reduce_mean (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-07-09 20:18:08,112@connect4_zero.worker.optimize DEBUG # loading data from /Users/HoangNguyen/Desktop/F_SOFT/sampleConnect/data/play_data/play_20180709-173128.131861.json
+2018-07-09 20:18:08,273@connect4_zero.worker.optimize DEBUG # loading data from /Users/HoangNguyen/Desktop/F_SOFT/sampleConnect/data/play_data/play_20180709-194414.694410.json
+2018-07-09 20:18:08,431@connect4_zero.worker.optimize DEBUG # loading data from /Users/HoangNguyen/Desktop/F_SOFT/sampleConnect/data/play_data/play_20180709-195959.039170.json
+2018-07-09 20:18:08,599@connect4_zero.worker.optimize DEBUG # loading data from /Users/HoangNguyen/Desktop/F_SOFT/sampleConnect/data/play_data/play_20180709-201402.270576.json
+2018-07-09 20:18:08,740@connect4_zero.worker.optimize DEBUG # updating training dataset
+2018-07-09 20:18:08,775@connect4_zero.worker.optimize DEBUG # total step=0, set learning rate to 0.01
+2018-07-09 20:18:51,874@connect4_zero.worker.optimize DEBUG # total step=9, set learning rate to 0.01
+2018-07-09 20:19:40,589@connect4_zero.worker.optimize DEBUG # total step=18, set learning rate to 0.01
+2018-07-09 20:20:39,587@connect4_zero.worker.optimize DEBUG # total step=27, set learning rate to 0.01
+2018-07-09 20:21:30,148@connect4_zero.worker.optimize DEBUG # total step=36, set learning rate to 0.01
+2018-07-09 20:22:17,765@connect4_zero.worker.optimize DEBUG # total step=45, set learning rate to 0.01
+2018-07-09 20:23:06,141@connect4_zero.worker.optimize DEBUG # total step=54, set learning rate to 0.01
+2018-07-09 20:23:59,603@connect4_zero.worker.optimize DEBUG # total step=63, set learning rate to 0.01
+2018-07-09 20:24:43,873@connect4_zero.worker.optimize DEBUG # total step=72, set learning rate to 0.01
+2018-07-09 20:25:30,339@connect4_zero.worker.optimize DEBUG # total step=81, set learning rate to 0.01
+2018-07-09 20:26:18,212@connect4_zero.worker.optimize DEBUG # total step=90, set learning rate to 0.01
+2018-07-09 20:27:05,974@connect4_zero.worker.optimize DEBUG # total step=99, set learning rate to 0.01
+2018-07-09 20:27:52,131@connect4_zero.worker.optimize DEBUG # total step=108, set learning rate to 0.01
+2018-07-09 20:28:48,696@connect4_zero.worker.optimize DEBUG # total step=117, set learning rate to 0.01
+2018-07-09 20:29:41,720@connect4_zero.worker.optimize DEBUG # total step=126, set learning rate to 0.01
+2018-07-09 20:30:23,722@connect4_zero.worker.optimize DEBUG # total step=135, set learning rate to 0.01
+2018-07-09 20:31:04,424@connect4_zero.worker.optimize DEBUG # total step=144, set learning rate to 0.01
+2018-07-09 20:31:44,344@connect4_zero.worker.optimize DEBUG # total step=153, set learning rate to 0.01
+2018-07-09 20:32:29,557@connect4_zero.manager INFO # config type: mini
+2018-07-09 20:32:36,660@connect4_zero.worker.optimize DEBUG # loading best model
+2018-07-09 20:32:36,660@connect4_zero.agent.model_connect4 DEBUG # loading model from /Users/HoangNguyen/Desktop/F_SOFT/sampleConnect/data/model/model_best_config.json
+2018-07-09 20:32:36,788@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1188: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-07-09 20:32:37,959@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1205: calling reduce_prod (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-07-09 20:32:38,404@connect4_zero.agent.model_connect4 DEBUG # loaded model digest = 1e11d471bbb65d5e6189317dadb0a8c8750c7803b7709391d3f35496c40a9f27
+2018-07-09 20:32:38,441@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1290: calling reduce_mean (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-07-09 20:32:38,498@connect4_zero.worker.optimize DEBUG # loading data from /Users/HoangNguyen/Desktop/F_SOFT/sampleConnect/data/play_data/play_20180709-173128.131861.json
+2018-07-09 20:32:38,660@connect4_zero.worker.optimize DEBUG # loading data from /Users/HoangNguyen/Desktop/F_SOFT/sampleConnect/data/play_data/play_20180709-194414.694410.json
+2018-07-09 20:32:38,820@connect4_zero.worker.optimize DEBUG # loading data from /Users/HoangNguyen/Desktop/F_SOFT/sampleConnect/data/play_data/play_20180709-195959.039170.json
+2018-07-09 20:32:38,990@connect4_zero.worker.optimize DEBUG # loading data from /Users/HoangNguyen/Desktop/F_SOFT/sampleConnect/data/play_data/play_20180709-201402.270576.json
+2018-07-09 20:32:39,142@connect4_zero.worker.optimize DEBUG # updating training dataset
+2018-07-09 20:32:39,179@connect4_zero.worker.optimize DEBUG # total step=0, set learning rate to 0.01
+2018-07-09 20:33:40,849@connect4_zero.worker.optimize DEBUG # total step=4, set learning rate to 0.01
+2018-07-09 20:34:25,633@connect4_zero.worker.optimize DEBUG # total step=8, set learning rate to 0.01
+2018-07-09 20:35:08,031@connect4_zero.worker.optimize DEBUG # total step=12, set learning rate to 0.01
+2018-07-09 20:35:50,931@connect4_zero.worker.optimize DEBUG # total step=16, set learning rate to 0.01
+2018-07-09 20:36:33,221@connect4_zero.worker.optimize DEBUG # total step=20, set learning rate to 0.01
+2018-07-09 20:37:15,595@connect4_zero.worker.optimize DEBUG # total step=24, set learning rate to 0.01
+2018-07-09 20:37:58,666@connect4_zero.worker.optimize DEBUG # total step=28, set learning rate to 0.01
+2018-07-09 20:38:41,703@connect4_zero.worker.optimize DEBUG # total step=32, set learning rate to 0.01
+2018-07-09 20:39:23,890@connect4_zero.worker.optimize DEBUG # total step=36, set learning rate to 0.01
+2018-07-09 20:40:06,114@connect4_zero.worker.optimize DEBUG # total step=40, set learning rate to 0.01
+2018-07-09 20:40:48,258@connect4_zero.worker.optimize DEBUG # total step=44, set learning rate to 0.01
+2018-07-09 20:41:32,373@connect4_zero.worker.optimize DEBUG # total step=48, set learning rate to 0.01
+2018-07-09 20:42:15,793@connect4_zero.worker.optimize DEBUG # total step=52, set learning rate to 0.01
+2018-07-09 20:43:00,996@connect4_zero.worker.optimize DEBUG # total step=56, set learning rate to 0.01
+2018-07-09 20:43:43,600@connect4_zero.worker.optimize DEBUG # total step=60, set learning rate to 0.01
+2018-07-09 20:44:25,981@connect4_zero.worker.optimize DEBUG # total step=64, set learning rate to 0.01
+2018-07-09 20:45:09,271@connect4_zero.worker.optimize DEBUG # total step=68, set learning rate to 0.01
+2018-07-09 20:45:51,488@connect4_zero.worker.optimize DEBUG # total step=72, set learning rate to 0.01
+2018-07-09 20:46:33,664@connect4_zero.worker.optimize DEBUG # total step=76, set learning rate to 0.01
+2018-07-09 20:47:15,926@connect4_zero.worker.optimize DEBUG # total step=80, set learning rate to 0.01
+2018-07-09 20:47:58,206@connect4_zero.worker.optimize DEBUG # total step=84, set learning rate to 0.01
+2018-07-09 20:48:42,536@connect4_zero.worker.optimize DEBUG # total step=88, set learning rate to 0.01
+2018-07-09 20:49:26,003@connect4_zero.worker.optimize DEBUG # total step=92, set learning rate to 0.01
+2018-07-09 20:50:10,627@connect4_zero.worker.optimize DEBUG # total step=96, set learning rate to 0.01
+2018-07-09 20:50:53,393@connect4_zero.worker.optimize DEBUG # total step=100, set learning rate to 0.01
+2018-07-09 20:51:35,731@connect4_zero.agent.model_connect4 DEBUG # save model to /Users/HoangNguyen/Desktop/F_SOFT/sampleConnect/data/model/next_generation/model_20180709-205135.728243/model_config.json
+2018-07-09 20:51:36,126@connect4_zero.agent.model_connect4 DEBUG # saved model digest 5a13a449d260ec1ca7e4e47fa1d6b9945c3be20f23289b78c0bb7ab43e82abc5
+2018-07-09 20:51:36,127@connect4_zero.worker.optimize DEBUG # total step=104, set learning rate to 0.01
+2018-07-09 20:52:19,811@connect4_zero.worker.optimize DEBUG # total step=108, set learning rate to 0.01
+2018-07-09 20:53:02,394@connect4_zero.worker.optimize DEBUG # total step=112, set learning rate to 0.01
+2018-07-09 20:53:44,690@connect4_zero.worker.optimize DEBUG # total step=116, set learning rate to 0.01
+2018-07-09 20:54:26,924@connect4_zero.worker.optimize DEBUG # total step=120, set learning rate to 0.01
+2018-07-09 20:55:09,239@connect4_zero.worker.optimize DEBUG # total step=124, set learning rate to 0.01
+2018-07-09 20:55:51,407@connect4_zero.worker.optimize DEBUG # total step=128, set learning rate to 0.01
+2018-07-09 20:56:33,611@connect4_zero.worker.optimize DEBUG # total step=132, set learning rate to 0.01
+2018-07-09 20:57:16,152@connect4_zero.worker.optimize DEBUG # total step=136, set learning rate to 0.01
+2018-07-09 20:58:00,368@connect4_zero.worker.optimize DEBUG # total step=140, set learning rate to 0.01
+2018-07-09 20:58:43,993@connect4_zero.worker.optimize DEBUG # total step=144, set learning rate to 0.01
+2018-07-09 20:59:27,578@connect4_zero.worker.optimize DEBUG # total step=148, set learning rate to 0.01
+2018-07-09 21:00:09,722@connect4_zero.worker.optimize DEBUG # total step=152, set learning rate to 0.01
+2018-07-09 21:00:51,968@connect4_zero.worker.optimize DEBUG # total step=156, set learning rate to 0.01
+2018-07-09 21:01:36,273@connect4_zero.worker.optimize DEBUG # total step=160, set learning rate to 0.01
+2018-07-09 21:02:18,949@connect4_zero.worker.optimize DEBUG # total step=164, set learning rate to 0.01
+2018-07-09 21:03:03,646@connect4_zero.worker.optimize DEBUG # total step=168, set learning rate to 0.01
+2018-07-09 21:03:45,801@connect4_zero.worker.optimize DEBUG # total step=172, set learning rate to 0.01
+2018-07-09 21:04:27,904@connect4_zero.worker.optimize DEBUG # total step=176, set learning rate to 0.01
+2018-07-09 21:05:11,381@connect4_zero.worker.optimize DEBUG # total step=180, set learning rate to 0.01
+2018-07-09 21:06:02,583@connect4_zero.worker.optimize DEBUG # total step=184, set learning rate to 0.01
+2018-07-09 21:06:47,030@connect4_zero.worker.optimize DEBUG # total step=188, set learning rate to 0.01
+2018-07-09 21:07:25,473@connect4_zero.worker.optimize DEBUG # total step=192, set learning rate to 0.01
+2018-07-09 21:08:04,268@connect4_zero.worker.optimize DEBUG # total step=196, set learning rate to 0.01
+2018-07-09 21:08:42,517@connect4_zero.worker.optimize DEBUG # total step=200, set learning rate to 0.01
+2018-07-09 21:09:20,768@connect4_zero.worker.optimize DEBUG # total step=204, set learning rate to 0.01
+2018-07-09 21:09:59,128@connect4_zero.agent.model_connect4 DEBUG # save model to /Users/HoangNguyen/Desktop/F_SOFT/sampleConnect/data/model/next_generation/model_20180709-210959.126758/model_config.json
+2018-07-09 21:09:59,178@connect4_zero.agent.model_connect4 DEBUG # saved model digest 95b8dd0ca581acc0d6afd48cb51f3d1b4904fd6dc314a4e0acdb75be27397269
+2018-07-09 21:09:59,179@connect4_zero.worker.optimize DEBUG # total step=208, set learning rate to 0.01
+2018-07-09 21:10:37,371@connect4_zero.worker.optimize DEBUG # total step=212, set learning rate to 0.01
+2018-07-09 21:11:15,512@connect4_zero.worker.optimize DEBUG # total step=216, set learning rate to 0.01
+2018-07-09 21:11:53,695@connect4_zero.worker.optimize DEBUG # total step=220, set learning rate to 0.01
+2018-07-09 21:12:32,085@connect4_zero.worker.optimize DEBUG # total step=224, set learning rate to 0.01
+2018-07-09 21:13:10,828@connect4_zero.worker.optimize DEBUG # total step=228, set learning rate to 0.01
+2018-07-09 21:13:49,193@connect4_zero.worker.optimize DEBUG # total step=232, set learning rate to 0.01
+2018-07-09 21:14:27,382@connect4_zero.worker.optimize DEBUG # total step=236, set learning rate to 0.01
+2018-07-09 21:15:05,606@connect4_zero.worker.optimize DEBUG # total step=240, set learning rate to 0.01
+2018-07-09 21:15:43,810@connect4_zero.worker.optimize DEBUG # total step=244, set learning rate to 0.01
+2018-07-09 21:16:22,059@connect4_zero.worker.optimize DEBUG # total step=248, set learning rate to 0.01
+2018-07-09 21:17:00,360@connect4_zero.worker.optimize DEBUG # total step=252, set learning rate to 0.01
+2018-07-09 21:17:39,309@connect4_zero.worker.optimize DEBUG # total step=256, set learning rate to 0.01
+2018-07-09 21:18:18,028@connect4_zero.worker.optimize DEBUG # total step=260, set learning rate to 0.01
+2018-07-09 21:18:56,337@connect4_zero.worker.optimize DEBUG # total step=264, set learning rate to 0.01
+2018-07-09 21:19:34,996@connect4_zero.worker.optimize DEBUG # total step=268, set learning rate to 0.01
+2018-07-09 21:20:13,291@connect4_zero.worker.optimize DEBUG # total step=272, set learning rate to 0.01
+2018-07-09 21:20:51,815@connect4_zero.worker.optimize DEBUG # total step=276, set learning rate to 0.01
+2018-07-09 21:21:30,029@connect4_zero.worker.optimize DEBUG # total step=280, set learning rate to 0.01
+2018-07-09 21:22:08,264@connect4_zero.worker.optimize DEBUG # total step=284, set learning rate to 0.01
+2018-07-09 21:22:46,795@connect4_zero.worker.optimize DEBUG # total step=288, set learning rate to 0.01
+2018-07-09 21:23:25,017@connect4_zero.worker.optimize DEBUG # total step=292, set learning rate to 0.01
+2018-07-09 21:24:03,221@connect4_zero.worker.optimize DEBUG # total step=296, set learning rate to 0.01
+2018-07-09 21:24:41,645@connect4_zero.worker.optimize DEBUG # total step=300, set learning rate to 0.01
+2018-07-09 21:25:19,939@connect4_zero.worker.optimize DEBUG # total step=304, set learning rate to 0.01
+2018-07-09 21:25:58,176@connect4_zero.worker.optimize DEBUG # total step=308, set learning rate to 0.01
+2018-07-09 21:26:36,697@connect4_zero.agent.model_connect4 DEBUG # save model to /Users/HoangNguyen/Desktop/F_SOFT/sampleConnect/data/model/next_generation/model_20180709-212636.695007/model_config.json
+2018-07-09 21:26:36,749@connect4_zero.agent.model_connect4 DEBUG # saved model digest 52086645fb33dba882cf397a3aaef3fbb0c42b8faf8014135bf2e7d74216816a
+2018-07-09 21:26:36,750@connect4_zero.worker.optimize DEBUG # total step=312, set learning rate to 0.01
+2018-07-09 21:27:16,692@connect4_zero.worker.optimize DEBUG # total step=316, set learning rate to 0.01
+2018-07-09 21:27:56,770@connect4_zero.worker.optimize DEBUG # total step=320, set learning rate to 0.01
+2018-07-09 21:28:35,862@connect4_zero.worker.optimize DEBUG # total step=324, set learning rate to 0.01
+2018-07-09 21:29:17,376@connect4_zero.worker.optimize DEBUG # total step=328, set learning rate to 0.01
+2018-07-09 21:29:56,639@connect4_zero.worker.optimize DEBUG # total step=332, set learning rate to 0.01
+2018-07-09 21:30:36,221@connect4_zero.worker.optimize DEBUG # total step=336, set learning rate to 0.01
+2018-07-09 21:31:17,219@connect4_zero.worker.optimize DEBUG # total step=340, set learning rate to 0.01
+2018-07-09 21:31:59,821@connect4_zero.worker.optimize DEBUG # total step=344, set learning rate to 0.01
+2018-07-09 21:32:42,491@connect4_zero.worker.optimize DEBUG # total step=348, set learning rate to 0.01
+2018-07-09 21:33:24,129@connect4_zero.worker.optimize DEBUG # total step=352, set learning rate to 0.01
+2018-07-09 21:34:02,492@connect4_zero.worker.optimize DEBUG # total step=356, set learning rate to 0.01
+2018-07-09 21:34:44,206@connect4_zero.worker.optimize DEBUG # total step=360, set learning rate to 0.01
+2018-07-09 21:35:23,073@connect4_zero.worker.optimize DEBUG # total step=364, set learning rate to 0.01
+2018-07-09 21:36:02,568@connect4_zero.worker.optimize DEBUG # total step=368, set learning rate to 0.01
+2018-07-09 21:36:40,925@connect4_zero.worker.optimize DEBUG # total step=372, set learning rate to 0.01
+2018-07-09 21:37:20,325@connect4_zero.worker.optimize DEBUG # total step=376, set learning rate to 0.01
+2018-07-09 21:38:03,549@connect4_zero.worker.optimize DEBUG # total step=380, set learning rate to 0.01
+2018-07-09 21:38:51,916@connect4_zero.worker.optimize DEBUG # total step=384, set learning rate to 0.01
+2018-07-10 10:26:42,643@connect4_zero.manager INFO # config type: normal
+2018-07-10 10:26:50,755@connect4_zero.agent.model_connect4 DEBUG # loading model from /Users/HoangNguyen/Desktop/F_SOFT/sampleConnect/data/model/model_best_config.json
+2018-07-10 10:26:50,901@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1188: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-07-10 10:26:51,952@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1205: calling reduce_prod (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-07-10 10:26:52,422@connect4_zero.agent.model_connect4 DEBUG # loaded model digest = 1e11d471bbb65d5e6189317dadb0a8c8750c7803b7709391d3f35496c40a9f27
+2018-07-10 10:26:52,423@asyncio DEBUG # Using selector: KqueueSelector
+2018-07-10 10:26:54,975@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(4, 0), value move=(0, 0)
+2018-07-10 10:26:55,389@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.06819423842851234
+2018-07-10 10:27:14,918@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(4, 0), value move=(2, 0)
+2018-07-10 10:27:15,394@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.20308378371124974
+2018-07-10 10:27:17,488@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.9093530453168429
+2018-07-10 10:27:22,540@connect4_zero.play_game.game_model DEBUG # evaluation by ai=1.0
+2018-07-10 10:27:24,823@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(4, 0), value move=(0, 0)
+2018-07-10 10:27:25,250@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.06819423842851234
+2018-07-10 10:27:26,838@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(4, 0), value move=(2, 0)
+2018-07-10 10:27:27,282@connect4_zero.play_game.game_model DEBUG # evaluation by ai=-0.017943780499455685
+2018-07-10 10:27:29,037@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(4, 0), value move=(3, 0)
+2018-07-10 10:27:29,570@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.2717612710321087
+2018-07-10 10:27:31,538@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.8971815265841403
+2018-07-10 10:27:33,853@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.7382915839552879
+2018-07-10 10:27:38,907@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.8454105152803308
+2018-07-10 10:27:41,859@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.9086292892312392
+2018-07-10 10:27:52,107@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(4, 0), value move=(0, 0)
+2018-07-10 10:27:52,625@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.8940031205145818
+2018-07-10 10:28:13,498@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.5978105525672436
+2018-07-10 10:28:29,667@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(0, 0), value move=(4, 0)
+2018-07-10 10:28:29,892@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.5269634436036266
+2018-07-10 10:28:50,470@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(3, 0), value move=(2, 0)
+2018-07-10 10:28:50,883@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.549039065329866
+2018-07-10 10:28:57,346@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(6, 0), value move=(4, 0)
+2018-07-10 10:28:57,900@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.4689199081165533
+2018-07-10 10:29:05,338@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(5, 0), value move=(4, 0)
+2018-07-10 10:29:05,849@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.403238728115655
+2018-07-10 10:29:35,773@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(5, 0), value move=(1, 0)
+2018-07-10 10:29:36,196@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.1819914126837695
+2018-07-10 10:30:43,948@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(6, 0), value move=(1, 0)
+2018-07-10 10:30:44,271@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.19525600986166314
+2018-07-10 10:31:24,114@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(1, 0), value move=(5, 0)
+2018-07-10 10:31:24,220@connect4_zero.play_game.game_model DEBUG # evaluation by ai=-0.7350779767983999
+2018-07-10 10:40:24,646@connect4_zero.manager INFO # config type: normal
+2018-07-10 10:40:31,823@connect4_zero.agent.model_connect4 DEBUG # loading model from /Users/HoangNguyen/Desktop/F_SOFT/sampleConnect/data/model/model_best_config.json
+2018-07-10 10:40:31,957@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1188: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-07-10 10:40:33,086@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1205: calling reduce_prod (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-07-10 10:40:33,529@connect4_zero.agent.model_connect4 DEBUG # loaded model digest = 1e11d471bbb65d5e6189317dadb0a8c8750c7803b7709391d3f35496c40a9f27
+2018-07-10 10:40:33,529@asyncio DEBUG # Using selector: KqueueSelector
+2018-07-10 10:40:34,103@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(3, 0), value move=(1, 0)
+2018-07-10 10:40:34,523@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.3621747159371835
+2018-07-10 10:40:38,431@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.6007562495107132
+2018-07-10 10:49:27,711@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.5949287942879028
+2018-07-10 10:49:35,768@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.3688307078924067
+2018-07-10 10:49:41,403@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.3874624594025416
+2018-07-10 10:49:44,554@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.02664372542660618
+2018-07-10 10:49:51,683@connect4_zero.play_game.game_model DEBUG # evaluation by ai=-0.13258723309608522
+2018-07-10 10:49:57,298@connect4_zero.play_game.game_model DEBUG # evaluation by ai=1.0
+2018-07-10 10:49:57,688@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(3, 0), value move=(1, 0)
+2018-07-10 10:49:58,097@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.3621747159371835
+2018-07-10 10:50:08,034@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.6684293632185266
+2018-07-10 10:50:09,301@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.9557380529417507
+2018-07-10 10:50:10,484@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.967058576643467
+2018-07-10 10:50:14,721@connect4_zero.play_game.game_model DEBUG # evaluation by ai=1.0
+2018-07-10 10:50:15,117@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(3, 0), value move=(1, 0)
+2018-07-10 10:50:15,543@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.3621747159371835
+2018-07-10 10:50:17,457@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.6684293632185266
+2018-07-10 10:50:19,109@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.9557380529417507
+2018-07-10 10:50:22,125@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.8585754788796837
+2018-07-10 10:50:29,017@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(1, 0), value move=(3, 0)
+2018-07-10 10:50:29,492@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.6293177129152943
+2018-07-10 10:50:33,776@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.9164391209681829
+2018-07-10 10:50:40,354@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(6, 0), value move=(1, 0)
+2018-07-10 10:50:40,897@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.6307078144345127
+2018-07-10 10:50:42,837@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.5521036147486506
+2018-07-10 10:50:45,466@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.7915617985507617
+2018-07-10 10:50:53,570@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.42631505483734433
+2018-07-10 10:51:04,446@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.35558159287371066
+2018-07-10 10:51:23,898@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.7798678452769915
+2018-07-10 10:51:36,371@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(2, 0), value move=(5, 0)
+2018-07-10 10:51:37,082@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.2648329916851301
+2018-07-10 10:51:58,845@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(5, 0), value move=(4, 0)
+2018-07-10 10:51:59,500@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.057238705612888394
+2018-07-10 10:52:10,436@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(5, 0), value move=(4, 0)
+2018-07-10 10:52:10,956@connect4_zero.play_game.game_model DEBUG # evaluation by ai=-0.09120400804208546
+2018-07-10 10:52:17,952@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(2, 0), value move=(4, 0)
+2018-07-10 10:52:18,469@connect4_zero.play_game.game_model DEBUG # evaluation by ai=-0.0523959653887977
+2018-07-10 10:52:28,724@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(4, 0), value move=(6, 0)
+2018-07-10 10:52:29,099@connect4_zero.play_game.game_model DEBUG # evaluation by ai=-0.0044670091971518505
+2018-07-10 10:52:35,852@connect4_zero.play_game.game_model DEBUG # evaluation by ai=-0.0035384575257430204
+2018-07-10 10:52:39,482@connect4_zero.play_game.game_model DEBUG # evaluation by ai=-0.03648203898625201
+2018-07-10 10:52:40,663@connect4_zero.play_game.game_model DEBUG # evaluation by ai=-0.014401510471606073
+2018-07-10 10:52:41,449@connect4_zero.play_game.game_model DEBUG # evaluation by ai=-0.0038865894578688637
+2018-07-10 10:52:42,877@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(3, 0), value move=(1, 0)
+2018-07-10 10:52:43,285@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.3621747159371835
+2018-07-10 10:57:12,804@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.15803291921629076
+2018-07-10 10:57:20,443@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(3, 0), value move=(2, 0)
+2018-07-10 10:57:21,437@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.0013549120565046367
+2018-07-10 13:29:04,011@connect4_zero.manager INFO # config type: mini
+2018-08-07 15:04:14,478@connect4_zero.manager INFO # config type: normal
+2018-08-07 15:04:23,661@connect4_zero.agent.model_connect4 DEBUG # loading model from /Users/HoangNguyen/Desktop/F_SOFT/sampleConnect/data/model/model_best_config.json
+2018-08-07 15:04:23,802@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1188: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-08-07 15:04:24,803@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1205: calling reduce_prod (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-08-07 15:04:25,331@connect4_zero.agent.model_connect4 DEBUG # loaded model digest = 1e11d471bbb65d5e6189317dadb0a8c8750c7803b7709391d3f35496c40a9f27
+2018-08-07 15:04:25,331@asyncio DEBUG # Using selector: KqueueSelector
+2018-08-07 15:04:25,885@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(3, 0), value move=(1, 0)
+2018-08-07 15:04:26,306@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.3621747159371835
+2018-08-07 15:04:31,005@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.38029608096084777
+2018-08-07 15:04:32,906@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(3, 0), value move=(2, 0)
+2018-08-07 15:04:33,352@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.6061731838214566
+2018-08-07 15:04:35,441@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(4, 0), value move=(3, 0)
+2018-08-07 15:04:35,888@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.8134791639561837
+2018-08-07 15:04:39,503@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(2, 0), value move=(3, 0)
+2018-08-07 15:04:40,024@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.5477806837930356
+2018-08-07 15:05:07,738@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.5244543855612884
+2018-08-07 15:05:31,155@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.7226347878652936
+2018-08-07 15:05:33,785@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.7553636674203125
+2018-08-07 15:05:36,231@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.8272384032607079
+2018-08-07 15:05:38,837@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.9689184344731845
+2018-08-07 15:05:54,158@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(6, 0), value move=(4, 0)
+2018-08-07 15:05:54,775@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.6807342879474163
+2018-08-07 15:06:06,536@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(5, 0), value move=(4, 0)
+2018-08-07 15:06:06,967@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.9745062818894019
+2018-08-07 15:06:15,044@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.9993866408864657
+2018-08-07 15:06:25,009@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.9878937236724361
+2018-08-07 15:06:36,046@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.9996387033626951
+2018-08-07 15:06:52,131@connect4_zero.play_game.game_model DEBUG # evaluation by ai=1.0
+2018-08-07 15:06:52,523@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(3, 0), value move=(1, 0)
+2018-08-07 15:06:52,932@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.3621747159371835
+2018-08-07 15:29:55,628@connect4_zero.manager INFO # config type: normal
+2018-08-07 15:30:04,887@connect4_zero.agent.model_connect4 DEBUG # loading model from /Users/HoangNguyen/Desktop/F_SOFT/sampleConnect/data/model/model_best_config.json
+2018-08-07 15:30:05,030@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1188: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-08-07 15:30:06,055@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1205: calling reduce_prod (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-08-07 15:30:06,538@connect4_zero.agent.model_connect4 DEBUG # loaded model digest = 1e11d471bbb65d5e6189317dadb0a8c8750c7803b7709391d3f35496c40a9f27
+2018-08-07 15:30:06,540@asyncio DEBUG # Using selector: KqueueSelector
+2018-08-07 15:30:07,099@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(3, 0), value move=(1, 0)
+2018-08-07 15:30:07,505@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.3621747159371835
+2018-08-07 15:30:16,787@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.6007562495107132
+2018-08-07 15:30:33,824@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.9996586322784424
+2018-08-07 15:30:39,577@connect4_zero.play_game.game_model DEBUG # evaluation by ai=1.0
+2018-08-07 15:30:47,481@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(4, 0), value move=(0, 0)
+2018-08-07 15:30:47,891@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.06819423842851234
+2018-08-07 15:30:58,539@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(4, 0), value move=(2, 0)
+2018-08-07 15:30:58,980@connect4_zero.play_game.game_model DEBUG # evaluation by ai=-0.017943780499455685
+2018-08-07 15:31:14,349@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(4, 0), value move=(3, 0)
+2018-08-07 15:31:14,786@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.2699521782583204
+2018-08-07 15:31:21,007@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.8971815265841403
+2018-08-07 15:31:27,204@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.7382915839552879
+2018-08-07 15:31:37,480@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.8454105152803308
+2018-08-07 15:31:42,145@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.9086292892312392
+2018-08-07 15:31:49,897@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(4, 0), value move=(0, 0)
+2018-08-07 15:31:50,402@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.8920894161147891
+2018-08-07 15:32:09,824@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.5978105525672436
+2018-08-07 15:32:16,502@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(0, 0), value move=(4, 0)
+2018-08-07 15:32:16,727@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.5269634436036266
+2018-08-07 15:32:18,230@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(4, 0), value move=(1, 0)
+2018-08-07 15:32:18,334@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.9805499098845758
+2018-08-07 15:32:25,453@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.7156395596616408
+2018-08-07 15:33:00,870@connect4_zero.play_game.game_model DEBUG # evaluation by ai=1.0
+2018-08-08 09:26:43,876@connect4_zero.manager INFO # config type: normal
+2018-08-08 09:26:53,899@connect4_zero.agent.model_connect4 DEBUG # loading model from /Users/HoangNguyen/Desktop/F_SOFT/sampleConnect/data/model/model_best_config.json
+2018-08-08 09:26:54,084@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1188: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-08-08 09:26:55,762@tensorflow WARNING # From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:1205: calling reduce_prod (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2018-08-08 09:26:56,326@connect4_zero.agent.model_connect4 DEBUG # loaded model digest = 1e11d471bbb65d5e6189317dadb0a8c8750c7803b7709391d3f35496c40a9f27
+2018-08-08 09:26:56,327@asyncio DEBUG # Using selector: KqueueSelector
+2018-08-08 09:26:58,956@connect4_zero.agent.player_connect4 DEBUG # continue thinking: policy move=(4, 0), value move=(0, 0)
+2018-08-08 09:26:59,371@connect4_zero.play_game.game_model DEBUG # evaluation by ai=0.06819423842851234
